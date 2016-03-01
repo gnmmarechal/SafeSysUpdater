@@ -7,7 +7,7 @@
 UpdateInfoJpn::UpdateInfoJpn(int deviceType) {
 
     this->region = "JPN";
-    this->version = "9.2.0-20";
+    this->version = "2.1.0-4";
 
     if (deviceType == 2 || deviceType == 4) {
 
