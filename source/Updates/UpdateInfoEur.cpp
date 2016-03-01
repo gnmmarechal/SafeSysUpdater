@@ -12,7 +12,7 @@ UpdateInfoEur::UpdateInfoEur(int deviceType) {
     if(deviceType == 2  || deviceType == 4) {
 
         this->model = "n3DS";
-        //These MD5 hashes were obtained using MD5SUM.EXE, these are the same as the ones used by brocolli.
+        //These MD5 hashes were obtained using MD5SUM.EXE, these are the same as the ones used by broccoli.
 
         items.push_back(UpdateItem("1d629186ef56962b631641e82f711f37", "/updates/0004001000022000.cia"));
         items.push_back(UpdateItem("eb62bd8a6163ee3cac1ea5d860289041", "/updates/0004001000022100.cia"));
