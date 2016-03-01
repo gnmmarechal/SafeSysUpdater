@@ -195,7 +195,7 @@ void downgrade() {
     free(update);
 
     debug->print("\n\nDowngrade completed. Trying to reboot in 10 sec...\n");
-    debug->print("PowerOff your device if it doesn't...\n");
+    debug->print("PowerOff your device if it doesn't... (wait 10 seconds though, there's no reason not to :D)\n");
     svcSleepThread(10000000000LL);
     debug->print("Trying to reboot...\n");
     while (aptInit() != 0) { };
@@ -209,7 +209,7 @@ int main(int argc, char *argv[]) {
     _gfxInit();
     debug = new Debug();
 
-    debug->print("\nSafeSysUpdater @ Cpasjuste\n\n");
+    debug->print("\nsafeSysUpdater-OCTO : Fork by gnmmarechal/gnmpolicemata\n\n");
     printf("Press (X) to dump titles list...\n");
     printf("Press (Y) to downgrade...\n");
     printf("Press (A) to check update files...\n");
