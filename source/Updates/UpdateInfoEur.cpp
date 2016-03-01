@@ -1,5 +1,5 @@
 //
-// Created by cpasjuste on 11/01/16.
+// Part of safeSysUpdater-OCTO-2.1.0
 //
 
 #include "UpdateInfoEur.h"
