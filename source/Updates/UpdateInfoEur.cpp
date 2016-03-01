@@ -92,7 +92,8 @@ UpdateInfoEur::UpdateInfoEur(int deviceType) {
 	items.push_back(UpdateItem("22db18022cd83f0696bb8ec594eb9958", "/updates/0004013000002103.cia"));
 	items.push_back(UpdateItem("28f07576789b44713bb646e5b04f2ffd", "/updates/0004013000002202.cia"));
 	items.push_back(UpdateItem("370090ef93b810585f20d6fb57ec6d9d", "/updates/0004013000002203.cia"));
-	items.push_back(UpdateItem("b3527b5626afaf2f265916cfb010da5d", "/updates/0004013000002302.cia"));		items.push_back(UpdateItem("88e8d05c03c8abe7f90488ffcdc4542c", "/updates/0004013000002303.cia"));
+	items.push_back(UpdateItem("b3527b5626afaf2f265916cfb010da5d", "/updates/0004013000002302.cia"));		
+	items.push_back(UpdateItem("88e8d05c03c8abe7f90488ffcdc4542c", "/updates/0004013000002303.cia"));
 	items.push_back(UpdateItem("4f9f66934955a7adbd93e97edadc1bb5", "/updates/0004013000002402.cia"));
 	items.push_back(UpdateItem("51fdb8536eb83762b4dd57800cde08a0", "/updates/0004013000002403.cia"));
 	items.push_back(UpdateItem("49bdab680c5ef513fd1ce51628c799ba", "/updates/0004013000002602.cia"));
