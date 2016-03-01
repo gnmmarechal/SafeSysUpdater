@@ -185,7 +185,7 @@ void downgrade() {
             debug->printr("FAIL... try again\n");
             if (AM_InstallFirm(it.titleID)) {
                 debug->printr("FAIL\n");
-                debug->printr("You should be able to use recovery to fix...\n");
+                debug->printr("Try fixing with Recovery (A+R+L+Up)\n");
                 quit();
             }
         }
@@ -195,7 +195,7 @@ void downgrade() {
     free(update);
 
     debug->print("\n\nDowngrade completed. Trying to reboot in 10 sec...\n");
-    debug->print("PowerOff your device if it doesn't... (wait 10 seconds though, there's no reason not to :D)\n");
+    debug->print("PowerOff your device if it doesn't...\n");
     svcSleepThread(10000000000LL);
     debug->print("Trying to reboot...\n");
     while (aptInit() != 0) { };
@@ -210,6 +210,7 @@ int main(int argc, char *argv[]) {
     debug = new Debug();
 
     debug->print("\nsafeSysUpdater-OCTO : Fork by gnmmarechal/gnmpolicemata\n\n");
+    debug->print("\nDowngrade Target Version: 2.1.0-4")
     printf("Press (X) to dump titles list...\n");
     printf("Press (Y) to downgrade...\n");
     printf("Press (A) to check update files...\n");
